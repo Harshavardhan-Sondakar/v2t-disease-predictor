@@ -166,6 +166,5 @@ wheel==0.43.0
 widgetsnbextension==4.0.9
 pip==24.1.2
 Flask
-pickle
 waitress
 SpeechRecognition
