@@ -164,7 +164,8 @@ websocket-client==1.7.0
 Werkzeug==3.0.1
 wheel==0.43.0
 widgetsnbextension==4.0.9
+pip==24.1.2
 Flask
-speech_recognition
 pickle
 waitress
+speech_recognition
