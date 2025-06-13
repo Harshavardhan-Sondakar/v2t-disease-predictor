@@ -1,2 +1,67 @@
-# Disease prediction from Symptoms with ML and Speech Recognition
- This project, "Predicting Diseases from Symptoms with Machine Learning and Speech Recognition," revolutionizes healthcare by leveraging advanced technologies to expedite the diagnostic process. Through the fusion of machine learning algorithms and speech recognition technology, this system empowers healthcare professionals with timely and accurate insights for disease prediction.  Using speech recognition, this system transcribes medical interactions, converting spoken words into text format. Subsequently, machine learning algorithms analyze the transcribed data, extracting relevant symptoms and health indicators. By correlating these symptoms with known disease patterns, this system predicts potential diseases, enabling healthcare professionals to make informed decisions regarding diagnosis and treatment.  With a focus on efficiency and accuracy, this project aims to streamline healthcare delivery, reduce diagnostic errors, and ultimately improve patient outcomes. By harnessing the power of machine learning and speech recognition, we pave the way for a future where healthcare is not only accessible but also personalized and effective.
+# V2T Disease Predictor
+
+A machine learning-powered web application that predicts diseases based on user symptoms, supporting both text and voice input. The app leverages speech recognition and a trained ML model to provide quick, accessible health insights.
+
+## Features
+
+- Predicts diseases from user-provided symptoms
+- Accepts both text and voice (speech-to-text) input
+- User-friendly web interface
+- Built with Python, Flask, and machine learning
+- Utilizes a pre-trained model for fast predictions
+
+## Demo
+
+![App Screenshot](static/v2tlogo.png)
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- pip
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/v2t-disease-predictor.git
+   cd v2t-disease-predictor
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Usage
+
+Run the application:
+```bash
+python main.py
+```
+
+### Project Structure
+
+```
+Disease-prediction-from-Symptoms-with-ML-and-Speech-Recognition/
+│
+├── main.py
+├── py3.py
+├── model.pkl
+├── requirements.txt
+├── Training.csv
+├── Testing.csv
+├── static/
+│   └── [images, icons, etc.]
+├── templates/
+│   └── index.html
+└── README.md
+```
+
+### How It Works
+
+- The user enters symptoms via text or voice.
+- The app processes the input and predicts the most likely disease using a machine learning model.
+- Results are displayed instantly on the web interface.
+
