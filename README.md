@@ -10,10 +10,6 @@ A machine learning-powered web application that predicts diseases based on user 
 - Built with Python, Flask, and machine learning
 - Utilizes a pre-trained model for fast predictions
 
-## Demo
-
-![App Screenshot](static/v2tlogo.png)
-
 ## Getting Started
 
 ### Prerequisites
